@@ -1,0 +1,8 @@
+
+<p>Some pow calculations!</p>
+<div>under number:<input #box1 (keyup)="0" value="2"></div>
+<div>exponent:<input #box2 (keyup)="0" value="1"></div>
+
+<p>
+    Calculated Value is:{{ box1.value | powCalculator: box2.value }}
+</p>
